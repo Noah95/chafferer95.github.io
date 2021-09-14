@@ -1,7 +1,7 @@
 //用来显示距离元旦的倒计时文本
 function getTimes() {
   // 获取结束时间的日期
-  var endTime = new Date('2021/09/18 23:20:00');
+  var endTime = new Date('2021/09/18 20:00:00');
   // 获取当前日期
   var nowTimw = new Date();
   // 获取结束时间与当前时间的总毫秒数
