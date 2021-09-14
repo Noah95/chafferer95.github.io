@@ -159,7 +159,7 @@ function render(cxt) {
 }
 //根据矩阵画出小球
 function renderDigit(x, y, num, cxt) {
-  cxt.fillStyle = "rgb(0,102,153)";
+  cxt.fillStyle = "rgb(206, 94, 138)";
   for (var i = 0; i < digit[num].length; i++)
     for (var j = 0; j < digit[num][i].length; j++)
       if (digit[num][i][j] == 1) {

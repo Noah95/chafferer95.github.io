@@ -20,7 +20,7 @@ function getTimes() {
     s = Math.floor(t / 1000 % 60);
   };
   // 写入到页面中
-  $('cc').innerHTML = ("距 “亡命”闯西北 还剩" + d + " 天 " + h + " 时 " + m + " 分 " + s + " 秒 ");
+  $('cc').innerHTML = ("距 “亡命”闯西北 还剩 " + d + " 天 " + h + " 时 " + m + " 分 " + s + " 秒 ");
 }
 setInterval(getTimes, 0); //执行倒计时的函数
 //封装获取id的讲话函数
